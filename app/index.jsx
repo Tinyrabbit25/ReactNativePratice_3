@@ -1,5 +1,5 @@
 import { StyleSheet, Text, View, Image} from 'react-native'
-
+import {Link} from 'expo-router'
 import Logo from '../assets/Light.jpg'
 
 const index = () => {
@@ -16,6 +16,8 @@ const index = () => {
     <View> 
         <Text style = {styles.card}> Hello This is a card</Text>
     </View>
+
+    <Link href = "/about"> About Page</Link>
 
 </View>
   )
